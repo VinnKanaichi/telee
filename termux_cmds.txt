@@ -1,0 +1,5 @@
+apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y 
+
+pip install -r requirements.txt
+
+python x.py
